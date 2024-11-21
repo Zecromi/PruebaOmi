@@ -1,0 +1,6 @@
+@GespaWebAPI_HostAddress = http://localhost:5087
+
+GET {{GespaWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
