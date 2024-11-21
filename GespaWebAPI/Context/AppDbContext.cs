@@ -11,5 +11,7 @@ namespace GespaWebAPI.Context
         }
         public DbSet<Person> Persons { get; set; }//Otras clases pueden acceder aqui //get; set; | Permiso de Lectura y escritura para la base
 
+        public DbSet<Person> Gespa { get; set; }//Otras clases pueden acceder aqui //get; set; | Permiso de Lectura y escritura para la base
+
     }
 } 
